@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS + CSS clock</title>
+</head>
+<body>
+    <div class="clock">
+        <div class="clock-face">
+            <div class="hand hour-hand"></div>
+            <div class="hand minute-hand"></div>
+            <div class="hand second-hand"></div>
+        </div>
+    </div>
+
+    <style>
+        html {
+            background: #018DED url(https://unsplash.it/1500/1000?image=881&blur=5);
+            background-size: cover;
+            font-family: 'helvetica neue';
+            text-align: center;
+            font-size: 10px;
+        }
+
+        body {
+            margin: 0;
+            font-size: 2rem;
+            display: flex;
+            flex: 1;
+            min-height: 100vh;
+            align-items: center;
+        }
+        
+        .clock {
+            width: 30rem;
+            height: 30rem;
+            border: 20px solid white;
+            border-radius: 50%;
+            margin: 50px auto;
+            position: relative;
+            padding: 2rem;
+            box-shadow:
+            0 0 0 4px rgba(0,0,0,0.1),
+            inset 0 0 0 3px #EEEFEF,
+            inset 0 0 10px black,
+            0 0 10px rgba(0,0,0,0.2);
+        }
+
+        .clock-face {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            transform: translateY(-3px); /* account fot the height of the clock hands */
+        }
+
+        .hand {
+            width: 50%;
+            height: 6px;
+            background: black;
+            position: absolute;
+            top: 50%;
+            transform-origin: 100%; /*this makes the hand move on the end(right hand side), or in this example the center of the clock face*/
+            transform: rotate(90deg); /*this sets the default, for the hands facing up, 12 o'clock position*/
+            transition: all 0.05s; /*how long the transition takes*/
+            transition-timing-function: cubic-bezier(0, 5.55, 1, 1); /*this creates the ticking motion, this was done by selecting ease-in-out originally and then messing with this in the console on the browser*/
+        }
+
+
+    </style>
+<script>
+const secondHand = document.querySelector('.second-hand');
+const minuteHand = document.querySelector('.minute-hand');
+const hourHand = document.querySelector('.hour-hand');
+
+    function setDate() {
+        const now = new Date(); /*Date is an inbuilt object that represents a single moment in time (the current time when asked)*/
+        //second hand 
+        const seconds = now.getSeconds(); /*this gets the seconds in the current time*/
+        const secondsDegrees = ((seconds / 60) * 360) +90; /*here we are working out the degrees to move the clock hand, and add the offset of 90 so it starts from the top*/
+        secondHand.style.transform = `rotate(${secondsDegrees}deg)`;
+        console.log(seconds);
+        // minute hand
+        const minutes = now.getMinutes();
+        const minDegrees = ((minutes / 60) * 360) +90; 
+        minuteHand.style.transform = `rotate(${minDegrees}deg)`;
+        console.log(minutes);
+        // hour hand
+        const hours = now.getHours();
+        const hourDegrees = ((hours / 12) * 360) +90; /*here we change it to 12, as there are 12 hours on a clock face*/
+        hourHand.style.transform = `rotate(${hourDegrees}deg)`;
+        console.log(hours);
+    }
+    
+    setInterval(setDate, 1000); /*this runs the setDate function every second*/
+</script>
+
+</body>
+</html>

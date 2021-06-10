@@ -9,7 +9,9 @@ Let's get to it 😁
 ## Progress  
 
 01 - JavaScript Drum Kit ✔  
-    [Data attribute](https://www.w3schools.com/tags/att_data-.asp) - The data-* attribute is used to store custom data private to the page or application.  
-02 - CSS + JS Clock  
-    
+- [Data attribute](https://www.w3schools.com/tags/att_data-.asp) - The data-* attribute is used to store custom data private to the page or application.  
+
+02 - CSS + JS Clock ✔  
+- tutorial completed ✔  
+
 
