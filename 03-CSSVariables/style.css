@@ -1,0 +1,42 @@
+/*The :root selector matches the document's root element.
+
+In HTML, the root element is always the html element.*/
+
+:root {
+    /*here we are defining some variables*/
+    --base: #FFC600;
+    --spacing: 10px;
+    --blur: 10px
+}
+
+img {
+    padding: var(--spacing);
+    background: var(--base);
+    /*The filter property defines visual effects (like blur and saturation) to an element (often <img>)*/
+    filter: blur(var(--blur));
+}
+
+.hl {
+    color: var(--base);
+}
+
+
+/* moved to this file as it is not part of the tutorial and is just basic layout of the page*/
+
+body {
+    text-align: center;
+    background: #193549;
+    color: white; /*this affects the text*/
+    font-family: 'helvetica neue', sans-serif;
+    font-weight: 100;
+    font-size: 50px;    
+}
+
+.controls {
+    margin-bottom: 50px;
+}
+
+input {
+    width: 100px;
+}
+

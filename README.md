@@ -6,15 +6,19 @@ Code to be commented, to allow me to refer back to it in the future and to embed
 
 Let's get to it 😁  
 
+## Amendment  
+once all have been completed, go back through and refactor code into seperate Javascript and CSS files. I don't like the look of it all being in one file
+
 ## Progress  
 
-01 - JavaScript Drum Kit ✔  
+01 - JavaScript Drum Kit   
 
+- tutorial completed ✔
 - [Data attribute](https://www.w3schools.com/tags/att_data-.asp) - The data-* attribute is used to store custom data private to the page or application. 
 - refactor into a JS file
 
 
-02 - CSS + JS Clock ✔  
+02 - CSS + JS Clock   
 
 - tutorial completed ✔  
 - hand lenght to be changed  
@@ -23,4 +27,10 @@ Let's get to it 😁
 - refactor into a JS file
 - refactor into a CSS file 
 
-03 - CSS Variables
+03 - CSS Variables ✔  
+
+- Tutorial completed ✔  
+- CSS file created ✔  
+- JS file created  
+
+04 - Array Cardio Day 1  
