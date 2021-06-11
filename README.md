@@ -34,3 +34,14 @@ Once all have been completed, go back through and refactor code into seperate Ja
 - add JS file ✔  
 
 04 - Array Cardio Day 1  
+
+- Tutorial completed ✔
+- console.table(), not used this before, but I like it. it creates a table in the console (durr!)
+- if statements refactored into ternary
+- exercise 6 commented out as it affects the other exercises
+- no CSS
+- JS file added - not really needed, but i said I would in the Amendment ✔
+
+05 - Flex Panel Gallery
+
+- Tutorial completed
