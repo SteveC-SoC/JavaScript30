@@ -40,7 +40,14 @@ Once all have been completed, go back through and refactor code into seperate Ja
 - if statements refactored into ternary
 - exercise 6 commented out as it affects the other exercises
 - no CSS
-- JS file added - not really needed, but i said I would in the Amendment ✔
+- JS file added - not really needed, but i said I would in the Amendment ✔  
+
+DEFINITIONS  
+
+- Filter - The filter() method creates an array filled with all array elements that pass a test (provided as a function).
+- Map - The map() method calls the provided function once for each element in an array, in order. Turn squares into circles
+- Sort - The sort order can be either alphabetic or numeric, and either ascending (up) or descending (down).
+- Reduce - The reduce() method reduces the array to a single value.
 
 05 - Flex Panel Gallery
 
