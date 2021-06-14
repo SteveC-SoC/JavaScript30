@@ -7,7 +7,7 @@ Code to be commented, to allow me to refer back to it in the future and to embed
 Let's get to it 😁  
 
 ## Amendment  
-Once all have been completed, go back through and refactor code into seperate Javascript and CSS files. I don't like the look of it all being in one file
+Go back through and refactor code into seperate Javascript and CSS files. I don't like the look of it all being in one file
 
 ## Progress  
 
@@ -51,4 +51,8 @@ DEFINITIONS
 
 05 - Flex Panel Gallery
 
-- Tutorial completed
+- Tutorial completed ✔  
+- flex:1 vs flex: 5, in CSS. one is equal spacing, five is five times the amount of room as the others  
+- The :before/:after selector inserts something before/after the content of each selected element(s). [Example](https://www.w3schools.com/cssref/sel_before.asp)  
+- can the this. be refactored, sure this is old JS  
+- close one panel when another is opened
