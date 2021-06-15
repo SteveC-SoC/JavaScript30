@@ -55,4 +55,13 @@ DEFINITIONS
 - flex:1 vs flex: 5, in CSS. one is equal spacing, five is five times the amount of room as the others  
 - The :before/:after selector inserts something before/after the content of each selected element(s). [Example](https://www.w3schools.com/cssref/sel_before.asp)  
 - can the this. be refactored, sure this is old JS  
-- close one panel when another is opened
+- close one panel when another is opened  
+
+06 - Type Ahead  
+
+- Tutorial completed ✔  
+- CSS [position:relative](https://www.w3schools.com/css/css_positioning.asp)
+- CSS [perspective](https://www.w3schools.com/cssref/css3_pr_perspective.asp)
+- CSS [list-style](https://www.w3schools.com/cssref/pr_list-style.asp)
+- change fetch request into a async function
+- change .this as this is old JS
