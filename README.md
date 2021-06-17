@@ -74,3 +74,6 @@ DEFINITIONS
 - .every checkes if ALL items in the array match the 
 - .find returns the first item that matches the criteria
 - BECAREFUL with the difference between "splice" and "slice"
+- 
+- The splice() method returns the removed items in an array. The slice() method returns the selected element(s) in an array, as a new array object. The splice() method CHANGES THE ORIGINAL ARRAY and slice() method DOESN'T CHANGE THE ORIGINAL ARRAY.
+
