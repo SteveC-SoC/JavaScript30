@@ -65,3 +65,12 @@ DEFINITIONS
 - CSS [list-style](https://www.w3schools.com/cssref/pr_list-style.asp)
 - change fetch request into a async function
 - change .this as this is old JS
+
+07 - Cardio Array Day 2
+
+- Tutorial completed ✔
+- adding {} around a variable, in console.log, will return the 
+- .some checkes is ANY items in the array match the criteria
+- .every checkes if ALL items in the array match the 
+- .find returns the first item that matches the criteria
+- BECAREFUL with the difference between "splice" and "slice"
