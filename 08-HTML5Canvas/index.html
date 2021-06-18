@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML5 Canvas</title>
+  </head>
+  <body style="display:flex;flex-direction:column;align-items:center;background: linear-gradient(to top, darkgreen, gold);">
+    <button class="refresh" >Start again</button>
+    <canvas id="draw" width="800" height="800"></canvas>
+    <script>
+      const Refresh = document.querySelector(".refresh");
+      const canvas = document.querySelector("#draw");
+      const ctx = canvas.getContext("2d");
+
+      canvas.width = window.innerWidth;
+      canvas.height = window.innerHeight;
+
+      ctx.strokeStyle = "#BADA55";
+      ctx.lineJoin = "round";
+      ctx.lineCap = "round";
+      ctx.lineWidth = 100;
+      // ctx.globalCompositeOperation = 'multiply';
+
+      let hue = 0;
+      let direction = true;
+      let isDrawing = false; //are you drawing
+      let lastX = 0; //where you start the drwaing from
+      let lastY = 0; //where you end the drawing
+
+      function draw(e) {
+        if (!isDrawing) return; //this stops the function ruinning if not mouse down
+        console.log(e);
+        ctx.strokeStyle = `hsl(${hue}, 100%, 50%)`;
+        ctx.beginPath();
+        //start from
+        ctx.moveTo(lastX, lastY);
+        //go to
+        ctx.lineTo(e.offsetX, e.offsetY);
+        ctx.stroke(); //this displays the line
+        [lastX, lastY] = [e.offsetX, e.offsetY]; // destructuting array, update both X and Y
+        hue++; //increase hue by 1, when it gets to 360 starts again (this is not reflected in the hue value though)
+        //this re-sets the hue
+        if (hue >= 360) {
+          hue = 0;
+        }
+        //this section increase line width from 1 -100 and then 100 - 1
+        if (ctx.lineWidth >= 100 || ctx.lineWidth <= 1) {
+          direction = !direction;
+        }
+
+        //re-factored into ternary
+        direction ? ctx.lineWidth++ : ctx.lineWidth--;
+        // if (direction) {
+        //     ctx.lineWidth++;
+        // } else {
+        //     ctx.lineWidth --;
+        // }
+
+        function clearCanvas() {
+          ctx.clearRect(0, 0, canvas.width, canvas.height);
+        }
+        Refresh.addEventListener("click", clearCanvas);
+      }
+
+      //this section starts the drawing on the mousedown position
+      canvas.addEventListener("mousedown", (e) => {
+        isDrawing = true; //this needs to be first
+        [lastX, lastY] = [e.offsetX, e.offsetY];
+      });
+
+      canvas.addEventListener("mousemove", draw);
+      canvas.addEventListener("mouseup", () => (isDrawing = false)); //let go of mouse
+      canvas.addEventListener("mouseout", () => (isDrawing = false)); // mose moves off the canvas
+    </script>
+
+    <style>
+      html,
+      body {
+        margin: 0;
+      }
+    </style>
+  </body>
+</html>

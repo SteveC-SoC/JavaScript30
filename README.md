@@ -77,3 +77,12 @@ DEFINITIONS
 - 
 - The splice() method returns the removed items in an array. The slice() method returns the selected element(s) in an array, as a new array object. The splice() method CHANGES THE ORIGINAL ARRAY and slice() method DOESN'T CHANGE THE ORIGINAL ARRAY.
 
+08 - Fun with HTML5 Canvas
+
+- Tutorial completed ✔
+- HTML shortcut, tag.hello will create a html tag with a CLASS of hello
+- HTML shortcut, tag#hello will create a html tag with a ID of hello
+- HTML [canvas](https://www.w3schools.com/tags/ref_canvas.asp)
+- HSL = Hue, lightness, saturation [see here](https://mothereffinghsl.com/)
+- [globalCompositeOperation](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/globalCompositeOperation) when the colors go over each other
+- add in a button to clear the canvas ✔
