@@ -6,9 +6,6 @@ Code to be commented, to allow me to refer back to it in the future and to embed
 
 Let's get to it 😁  
 
-## Amendment  
-Go back through and refactor code into seperate Javascript and CSS files. I don't like the look of it all being in one file
-
 ## Progress  
 
 01 - JavaScript Drum Kit   
@@ -86,3 +83,24 @@ DEFINITIONS
 - HSL = Hue, lightness, saturation [see here](https://mothereffinghsl.com/)
 - [globalCompositeOperation](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/globalCompositeOperation) when the colors go over each other
 - add in a button to clear the canvas ✔
+
+09 - Dev Tools
+
+- Tutorial completed ✔
+- good to learn some new console. methods
+
+10 - Hold Shift and check Multiple Checkboxes
+
+- Tutorial completed ✔
+- I think I understand it, but marked for another go over. Need to write the code a few more times for this to settle into my head
+
+11- Custom Media Player
+
+- Tutorial Completed ✔
+- this was really good fun, there is a lot in this one and will want to go over it again
+- can I add a full screen button?
+
+12 - Key Sequence detection (KONAMI CODE)
+
+- Tutorial completed ✔
+- easier than I though, understand the concepts, will want to make it mine, play about with it in future projects 😁
