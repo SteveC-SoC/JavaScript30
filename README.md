@@ -128,3 +128,12 @@ DEFINITIONS
 - Tutorial Completed ✔
 - The contenteditable attribute specifies whether the content of an element is editable or not. this means it can be edited in the browser
 - This one was a good laugh
+
+17 - Sorting Without Articles
+
+- tutorial completed ✔
+
+18 - Tally Srting Times with Reduce
+
+- tutorial completed ✔
+- this can be refactored into one reduce
