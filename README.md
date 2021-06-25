@@ -104,3 +104,10 @@ DEFINITIONS
 
 - Tutorial completed ✔
 - easier than I though, understand the concepts, will want to make it mine, play about with it in future projects 😁
+
+13 - Slide in on Scroll
+
+- Tutorial completed ✔
+- debounce function, need to go over this and break it down
+
+14 - Object and Arrays - Reference VS Copy
