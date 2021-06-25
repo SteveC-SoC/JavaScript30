@@ -111,3 +111,20 @@ DEFINITIONS
 - debounce function, need to go over this and break it down
 
 14 - Object and Arrays - Reference VS Copy
+
+- Tutorial completed ✔
+- look into copying/changing nested objects
+
+15 - Local Storage
+
+- Tutorial Completed ✔
+- The HTML <svg> element is a container for SVG graphics
+- SVG stands for Scalable Vector Graphics
+- updating the list on larger projects, React would be better
+- CHALLENGE add a clear button 
+
+16 - CSS text Shadow Mouse Move Effect
+
+- Tutorial Completed ✔
+- The contenteditable attribute specifies whether the content of an element is editable or not. this means it can be edited in the browser
+- This one was a good laugh
