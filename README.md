@@ -135,5 +135,22 @@ DEFINITIONS
 
 18 - Tally Srting Times with Reduce
 
-- tutorial completed ✔
-- this can be refactored into one reduce
+- Tutorial completed ✔
+- Can this can be refactored into one reduce function
+
+19 - Wewbcam fun
+
+- Tutorial completed ✔
+- useing npm to run the server
+- event listener [canplay](https://www.w3schools.com/tags/av_event_canplay.asp)
+- put all functions on their own button
+- project idea make a photobooth app
+
+20 - Speech recognition
+
+- Tutorial completed ✔
+- this was really good fun, can I make an app that is completely hands free and runs only on speech recognition???
+
+21 - Geolocation
+
+- unable to complete as not on a MAC
