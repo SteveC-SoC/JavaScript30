@@ -154,3 +154,7 @@ DEFINITIONS
 21 - Geolocation
 
 - unable to complete as not on a MAC
+
+22 - Follow along Link highlighter
+
+- Tutorial Completed ✔
