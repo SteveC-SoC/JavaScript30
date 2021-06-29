@@ -158,3 +158,14 @@ DEFINITIONS
 22 - Follow along Link highlighter
 
 - Tutorial Completed ✔
+
+23 - Speech Synthesis
+
+- Tutorial Completed ✔
+- this was really cool and adding ideas to my plan to make a app that has no keyboard or mouse input
+
+24 - Sticky Nav
+
+- Tutorial Completed ✔
+
+25 -
