@@ -168,4 +168,22 @@ DEFINITIONS
 
 - Tutorial Completed ✔
 
-25 -
+25 - Event Capture, propagation, bubbleing and Once
+
+- Tutorial Completed ✔
+- Educational, not necessarily everyday use though
+
+26 - Stripe follow along dropdown
+
+- Tutorial Completed ✔
+- this would be good to replicate in other projects as a nav bar
+
+27 - Click and Drag to scroll
+
+- Tutorial Completed ✔
+- refactor the event listeners into individual functions
+
+28 - Video Speed Controller UI
+
+- Tutorial Completed ✔
+- refactor into functions ✔
