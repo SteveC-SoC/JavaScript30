@@ -187,3 +187,12 @@ DEFINITIONS
 
 - Tutorial Completed ✔
 - refactor into functions ✔
+
+29 - Countdown Timer
+
+- Tutorial Completed ✔
+- clear the autofill on the form ✔
+
+30 - Whack a Mole Game
+
+- Tutorial Completed 
