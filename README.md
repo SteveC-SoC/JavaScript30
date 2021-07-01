@@ -195,4 +195,5 @@ DEFINITIONS
 
 30 - Whack a Mole Game
 
-- Tutorial Completed 
+- Tutorial Completed ✔
+- fun game with some good concepts of timing
